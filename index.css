@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+}
+
+header {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  margin: 10px;
+  flex: 1;
+}
+
+#list {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  min-width: 400px;
+  height: 30vh;
+  border: solid 1px grey;
+  margin: 10px;
+}
+
+.welcome {
+  margin: 10px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.keyword {
+  color: rgb(226, 70, 226);
+}
+
+.int {
+  color: blue;
+}
+
+.var-highlight {
+  color: #c0ad60;
+}
+
+.string-highlight {
+  color: rgba(253, 149, 90, 0.8);
+}
+
+#typewriter {
+  font-size: 2em;
+  margin: 0;
+  /* font-family: "Courier New"; */
+}
+
+#typewriter:after {
+  content: "|";
+  -webkit-animation: blink 500ms linear infinite alternate;
+  animation: blink 500ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
