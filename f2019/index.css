@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton&display=swap");
+
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(29, 29, 36);
+}
+
+header {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+  font-family: "Rubik Mono One", sans-serif;
+  color: white;
+}
+
+.big {
+  font-size: 40px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.top {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info h1 {
+  margin: 10px;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.half {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.bottom {
+  color: white;
+  font-family: "Rubik Mono One", sans-serif;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.navigation {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation > a {
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navigation > a:active {
+  color: white;
+}
+
+.scrollmenu {
+  height: 40vh;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu > div {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  max-width: 100%;
+}
+
+.row-info > h1 {
+  text-align: center;
+}
+
+.week {
+  height: 40vh;
+  width: 100vw;
+  vertical-align: middle;
+}
+
+.ta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.week-body {
+  font-family: "Rubik Mono One", sans-serif;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content h1 {
+  margin: 10px;
+}
+
+.time {
+  color: black;
+  width: 30%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Anton", sans-serif;
+  border-radius: 9px;
+}
+
+.number {
+  font-size: 150px;
+}
+
+.text {
+  font-size: 50px;
+}
+
+a {
+  color: rgb(151, 255, 255);
+}
+
+li {
+  vertical-align: baseline;
+  flex-flow: row wrap;
+}
